@@ -1,0 +1,70 @@
+
+Module : JavaScript
+Exercice n°4 - String
+
+
+
+
+
+
+Durée de l’exercice : 30min
+String
+
+Les chaînes de caractères en JavaScript sont utilisées pour stocker et manipuler du texte. Elles sont constituées de zéro ou plusieurs caractères écrits entre guillemets. Il est possible d’utiliser des guillemets simples ou doubles.
+Un index est un nombre qui correspond à la position d'un caractère dans une chaîne. Le premier caractère d'une chaîne de caractères à l'index 0, le deuxième caractère à l'index 1, et ainsi de suite. L'indexation est un modèle que les programmeurs utilisent souvent dans les chaînes de caractères. Ce modèle apparaîtra également plus tard dans des applications plus avancées.
+
+Objectif de l'exercice : savoir et comprendre ce qu'est une chaîne de caractères, comment créer une chaîne de caractères et les méthodes pour l’utiliser.
+
+Énoncé : Suivez les étapes ci-dessous pour réaliser votre exercice. Précisez d'abord le résultat puis exécutez le code dans le terminal et comparez votre prédiction.
+
+Créez un nouveau dossier nommé string-methods. Créez un fichier nommé string_one.js à l'intérieur.
+
+Prédisez ce que le code suivant va imprimer :
+
+# string_one.js
+console.log("somestringtext"[3]) ;
+console.log("éléphant"[1]) ;
+console.log("animal".longueur) ;
+console.log("animal".length - 1) ;
+console.log("yesJOHN".toUpperCase()) ;
+console.log("hey friends call me"[2] === "y") ;
+console.log("animal dans la forêt".length > 20) ;
+console.log("bonjour ranger".indexOf("r")) ;
+console.log("éléphant".indexOf("e")) ;
+console.log("chat"[5]) ;
+console.log("chat".indexOf("x")) ;
+console.log("cat".indexOf("C")) ;
+
+# créer un autre fichier nommé string_two.js. Dans la méthode String, prédisez ce que le code suivant s’imprimera :
+
+let word = "Kill two birds with one stone" ;
+console.log(mot[4]) ;
+console.log(word.length > 5 && word[0] === "d") ;
+console.log(word.length > 5 && word[0] === "s") ;
+console.log(mot.indexOf("o") > -1) ;
+console.log(word.indexOf("z") > -1) ;
+let str = "foggy" ;
+console.log(str[2 + 1]) ;
+console.log(str[str.length - 1]) ;
+str = "jour" ;
+console.log(str) ;
+console.log(str.length) ;
+console.log(str.indexOf("ogg")) ;
+
+# créer un autre fichier nommé string_three.js. Dans la méthode String, prédisez ce que le
+code suivant s'imprimera :
+
+let phrase = "Let the cat out of the bag" ;
+console.log(phrase[phrase.length]) ;
+console.log(phrase[phrase.length - 1]) ;
+console.log(phrase[phrase.length - 2]) ;
+const i = 7 ;
+const char = phrase[i] ;
+console.log(char) ;
+console.log(phrase.indexOf(char)) ;
+console.log(phrase.slice(2, 8)) ;
+console.log("abcdefg".slice(1, 3)) ;
+console.log("abcdefg".slice(2)) ;
+console.log("abcdefg".slice(4)) ;
+console.log("abcdefg".slice(2, -1)) ;
+console.log("abcdefg".slice(2, -2)) ;

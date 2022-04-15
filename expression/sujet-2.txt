@@ -1,0 +1,89 @@
+
+Module : JavaScript
+Exercice n°2 - Expressions
+
+
+
+
+
+
+
+Durée de l’exercice : 30min
+
+Expressions
+
+Les expressions sont les éléments constitutifs des programmes ; nous pouvons combiner des valeurs avec des opérateurs pour composer une expression. Une expression est évaluée à une certaine valeur.
+Objectif de l'exercice : savoir et comprendre ce qu'est une expression et comment l'implémenter dans un programme JavaScript.
+
+Énoncé : Suivez les étapes ci-dessous pour réaliser votre premier exercice. Prédisez le résultat puis exécutez le code dans le terminal et comparez votre prédiction.
+
+Créez un dossier appelé expression et 4 fichiers appelés :
+-	string-expression.js,
+-	expression-nombre.js,
+-	expression-booléenne.js,
+-	expression-comparaison.js
+
+Faites des prédictions sur les résultats de ces expressions. Testez vos prédictions en écrivant le code dans chaque nom de fichier et en l'exécutant :
+
+1. string-expression.js
+console.log("string" + "expression") ;
+console.log("eau" + "feu") ;
+console.log("haut" + "bas") ;
+console.log("homme" + "courir" + "par sécurité!123###") ;
+
+2. expression numérique.js
+console.log(6 + 3) ;
+console.log(10 - 20) ;
+console.log(4 + 6 - 5) ;
+console.log(4 * 8) ;
+console.log(4 + 6 * 3) ;
+console.log((4 + 3) * 3) ;
+console.log(5 % 3) ;
+console.log(7 / 2) ;
+console.log(8 % 2) ;
+console.log(19 % 8) ;
+console.log(6 % 2) ;
+console.log(7 % 2) ;
+console.log(5 + (10 % 5)) ;
+console.log((5 + 10) % 5) ;
+console.log(24 % 8) ;
+console.log(7 % 4) ;
+console.log(4 % 7) ;
+
+3. expression booléenne.js
+console.log(!false) ;
+console.log(!true) ;
+console.log(false) ;
+console.log(!true) ;
+console.log(false && false) ;
+console.log(true && true) ;
+console.log(false && true) ;
+console.log(true && false) ;
+console.log(true || false) ;
+console.log(true || true) ;
+console.log(false || false) ;
+console.log(false || true) ;
+console.log(false || !(true && true)) ;
+console.log(!true && (false || true)) ;
+console.log(!false || false) ;
+
+console.log(false || (true && true)) ;
+
+4. comparaison-expression.js
+console.log(false !== true) ;
+console.log(false === false) ;
+console.log(!true === false) ;
+console.log(true === false) ;
+console.log(4 + 3 === 7) ;
+console.log(8 < 0) ;
+console.log(12 >= 12) ;
+console.log(11,3 >= 11) ;
+console.log(200 / 2 === 100) ;
+console.log(100 % 2 === 0) ;
+console.log(11 % 2 === 0) ;
+console.log(8.0 === 8) ;
+console.log(13 % 5 > 0) ;
+console.log("arbre" === "arbre") ;
+console.log("Apple" === "apple") ;
+console.log("58" === 58) ;
+console.log(9 > 6 && 1 === 0) ;

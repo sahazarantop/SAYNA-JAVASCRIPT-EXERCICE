@@ -1,0 +1,45 @@
+
+Module : JavaScript
+Exercice n°1 - Introduction
+
+
+
+
+
+
+
+Durée de l’exercice : 30min
+
+Introduction
+
+Cet exercice est spécialement conçu pour les débutants et vous apprendra les bases de la programmation en JavaScript.
+En même temps que vous avancez dans le cours, vous devez vous exercer pour comprendre les bases de JavaScript. Cela vous permettra de pratiquer et d’assimiler les bases de ce langage de programmation.
+Vous devez vous entraîner suffisamment avec les exercices pour être à l'aise avec les bases de JavaScript avant de passer aux projets.
+
+Ok, commençons.
+
+Installation et exécution de code Javascript
+
+Avant tout, il est important de s’assurer que tous les outils et extensions sont opérationnels avant de commencer les exercices. Il existe plusieurs types d’outils. Cet exercice propose une composition possible pour développer efficacement.
+
+Objectif de l'exercice : Savoir ce qu'est un terminal, installer VSCode Editor, Nodejs, apprendre à exécuter du code sur votre terminal VS Code Editor, connaître console.log(), comment créer un dossier et une structure de fichiers.
+
+Énoncé : Suivez les étapes ci-dessous pour réaliser votre premier exercice.
+
+1. Créer un dossier sur votre bureau nommé my-first-js-programs
+2. Ouvrez le dossier dans votre éditeur de code VS Code
+3. Créez un fichier appelé hello.js
+4. A l'intérieur de hello.js, écrivez la seule ligne de code console.log('hello world'). Ainsi, le programme imprimera "hello world" lorsque vous l'exécuterez plus tard.
+5. Enregistrez le fichier.
+6. Ouvrez le terminal et entrez la commande node hello.js
+
+(Note : assurez-vous d’avoir sélectionné le programme my-first-js dans votre terminal)
+
+Répétez l'exercice avec un nom de fichier différent.
+
+add.js
+console.log(2+2)
+fullName.js
+console.log("John Doe") ;
+
+

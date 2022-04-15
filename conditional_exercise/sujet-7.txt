@@ -1,0 +1,149 @@
+
+Module : JavaScript
+Exercice n°7 - Conditions
+
+
+
+
+
+
+Durée de l’exercice : 30min
+Conditions
+
+Les instructions conditionnelles sont utilisées pour effectuer différentes actions en fonction de différentes conditions.
+
+Objectif de l'exercice : connaître et comprendre ce que sont les instructions conditionnelles en javascript, comment utiliser les instructions conditionnelles (if, else if, else, switch) de manière effective et efficacement
+
+Énoncé : Suivez les étapes ci-dessous pour réaliser votre exercice.
+
+Créez un nouveau dossier nommé conditional_exercise. A l'intérieur, créez un fichier nommé conditional_one.js. Prédisez ce que chacun des extraits de code ci-dessous va imprimer.
+
+Tapez le code ci-dessous dans votre fichier conditional_one.js et comparez le résultat à votre prédiction.
+
+//code-0-1
+if (true) {
+console.log("foo") ;
+}
+if (false) {
+console.log("bar") ;
+}
+//code-0-2
+if (false || false) {
+console.log("boop") ;
+}
+if (true || false) {
+console.log("beep") ;
+}
+//code-0-3
+let num = 30 ;
+if (num > 0) {
+console.log("zip") ;
+}
+if (num % 2 === 0) {
+console.log("zoop") ;
+}
+//code-0-4
+let word = "jeep" ;
+if (mot[0] === "d") {
+console.log("Correct") ;
+} else {
+console.log("Pas correct") ;
+}
+//code-0-5
+let sentence = "roger that" ;
+if (phrase[phrase.length - 1] === "t") {
+console.log("se termine par t") ;
+} else {
+console.log("ne se termine pas par t") ;
+}
+if (phrase.length <= 4) {
+console.log("court") ;
+} else {
+console.log("long") ;
+}
+
+# Tapez le code ci-dessous dans votre fichier conditional_two.js et comparez le résultat à votre prédiction.
+
+//code-1-0
+let qty = 48 ;
+if (qty > 30 && qty % 5 === 4) {
+console.log("ya true") ;
+} else {
+console.log("no false") ;
+}
+if (qty > 0) {
+console.log("qty is greater than zero") ;
+}
+//code-1-1
+let a = "apple" ;
+let b = "MANGUE" ;
+si (a === a.toUpperCase()) {
+console.log("alpha") ;
+}
+si (b === b.toUpperCase()) {
+console.log("beta") ;
+}
+//code-1-2
+Soit nombre = 12 ;
+if (nombre > 4) {
+console.log("ding") ;
+} else if (number % 3 === 0) {
+console.log("dong") ;
+}
+//code-1-3
+let z = 14 ;
+if (z > 10) {
+console.log("Condition vraie") ;
+}
+if (z % 3 === 0) {
+console.log("skrrt") ;
+}
+
+# Tapez le code ci-dessous dans votre fichier conditional_three.js et comparez le résultat avec votre prédiction.
+
+// code 2-1
+let blogging = "Quand la vie vous donne des citrons, faites de la limonade" ;
+let hasOk = blogging.indexOf("ok") > -1 ;
+if (hasOk) {
+console.log("yeet") ;
+} else if (blogging.length > 10) {
+console.log("yes") ;
+} else {
+console.log("no") ;
+}
+let hasYou = blogging.indexOf("you") > -1 ;
+let hasFun = blogging.indexOf("fun") > -1 ;
+if (hasYou && hasOk) {
+console.log("cool") ;
+} else if (hasOk) {
+console.log("rad") ;
+} else if (hasFun) {
+console.log("dope") ;
+} else {
+console.log("nope") ;
+}
+// code 2-2
+let q = 25 ;
+if (q % 3 === 0 && q % 5 === 0) {
+console.log("both") ;
+} else if (q % 3 === 0 || q % 5 == 0) {
+console.log("either") ;
+} else {
+console.log("neither") ;
+}
+let r = 9 ;
+if (r % 3 === 0 && r % 5 === 0) {
+console.log("both") ;
+} else if (r % 3 === 0 || r % 5 == 0) {
+console.log("either") ;
+} else {
+console.log("neither") ;
+}
+let s = 15 ;
+if (s % 3 === 0 && s % 5 === 0) {
+console.log("both") ;
+} else if (s % 3 === 0 || s % 5 == 0) {
+console.log("either") ;
+} else {
+console.log("neither") ;
+}

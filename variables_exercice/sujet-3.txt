@@ -1,0 +1,78 @@
+
+Module : JavaScript
+Exercice n°3 - Variables et types
+
+
+
+
+
+
+Durée de l’exercice : 30min
+Variables et types
+
+Les variables permettent aux programmeurs de stocker des valeurs qui seront utilisées ultérieurement dans leur code. La valeur d'une variable peut changer au cours de l'exécution d'un programme.
+En JavaScript, il existe trois types de variables différentes : var, let et const. 
+Chacune de ces variables ont plusieurs règles sur la façon dont elles doivent être utilisées, et ont des caractéristiques différentes.
+
+Objectif de l'exercice : savoir et comprendre ce qu'est une variable et comment l’utiliser dans un programme JavaScript.
+
+Énoncé : Suivez les étapes ci-dessous pour réaliser l’exercice
+
+Créez un dossier nommé variables_exercice. Créez un fichier nommé location.js à l'intérieur de celui-ci.
+Prédisez ce que le fichier console.log du code ci-dessous va imprimer :
+
+#location.js
+let location = "Japan, " + "ASIA" ;
+console.log(location) ;
+let quantity = 4 * 4 + 1 ;
+console.log(quantité) ;
+
+Suivez le même processus avec les exemples suivants :
+
+# variable_one.js
+let word = "swim" ;
+console.log(mot + " felicia") ;
+console.log(mot) ;
+let num = 20 ;
+num = num * 2 ;
+console.log(num) ;
+let numberOfApple = 99 ;
+let appleLeft = numberOfApple - 1 ;
+console.log(pommeGauche) ;
+console.log(nombreDePomme) ;
+# variable_two.js
+let mango ;
+console.log(mango) ;
+mangue = 10 ;
+console.log(mango) ;
+mango + 1 ;
+console.log(mango) ;
+mangue += 1 ;
+console.log(mangue) ;
+let banana = mangue ;
+console.log(banane) ;
+banane = banane / 2 ;
+console.log(banane) ;
+console.log(mangue) ;
+# variable_three.js
+let count = 18 % 4 ;
+console.log(count) ;
+let num = 37 + 2 ;
+num++ ;
+console.log(num + " est un grand nombre") ;
+let isNumEven = num % 2 === 0 ;
+console.log(num + " est pair ? " + isNumEven) ;
+let isQtyEven = count % 2 === 0 ;
+console.log(count + " is even ? " + isQtyEven) ;
+# variable_four.js
+
+
+Créez deux variables sujet et score :
+
+● sujet, attribué à la chaîne de caractères ("Math").
+● score, affecté au nombre de points obtenus à l'examen (95).
+
+Une fois exécuté, le programme devrait imprimer le message suivant .
+J'ai obtenu la meilleure note en <sujet> et mon score est <score>.
+
+Résultat : J'ai obtenu la meilleure note en mathématiques et mon score est de 95.
